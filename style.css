@@ -1,0 +1,59 @@
+*{
+  color: aliceblue;
+}
+
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.grandparent {
+  width: 500px;
+  margin: 10% auto;
+  height: 500px;
+  background-color: rgb(242, 235, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.out{
+  width: 500px;
+  margin: 10% auto;
+  height: 500px;
+  background-color: rgb(59, 90, 28);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grandparentB{
+  width: 500px;
+  margin: 10% auto;
+  height: 500px;
+  background-color: rgb(156, 129, 39);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.PUSH{
+  width: 500px;
+  margin: 10% auto;
+  height: 500px;
+  background-color: rgb(248, 115, 183);
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  text-align: center;
+}
+
+body{
+  background-color: rgb(25, 25, 25);
+}
